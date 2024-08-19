@@ -1,0 +1,15 @@
+{
+  "name": "premier_league_fixtures",
+  "version": "1.0.0",
+  "description": "JS code to grab the lastest premier league fixtures and send a notifcation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env src/index.js"
+  },
+  "keywords": [],
+  "author": "Harry Vince",
+  "license": "MIT",
+  "devDependencies": {
+    "@aws-sdk/client-ssm": "^3.632.0"
+  }
+}
